@@ -33,7 +33,7 @@ Returns the file size.
 ## Example usage
 
 ```yaml
-uses: DamianReeves/write-file-action
+uses: DamianReeves/write-file-action@v1.0
 with:
   path: ${{ env.home}}/.bashrc
   contents: |
